@@ -1,0 +1,4 @@
+[submodule "amstrad464"]
+	path = cores/amstrad464
+	ignore = dirty
+	url = git@github.com:libretro/libretro-cap32.git

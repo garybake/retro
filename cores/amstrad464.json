@@ -1,0 +1,13 @@
+{
+    "Amstrad464": {
+        "lib": "cap32",
+        "ext": ["dsk"],
+        "keybinds": ["Z", null, "SPACE", "UP", "DOWN", "LEFT", "RIGHT"],
+        "buttons": ["CPC_KEY_JOY_FIRE1", null, "SPACE", "CPC_KEY_JOY_UP", "CPC_KEY_JOY_DOWN", "CPC_KEY_JOY_LEFT", "CPC_KEY_JOY_RIGHT"],
+        "actions": [
+            [[], ["UP"], ["DOWN"]],
+            [[], ["LEFT"], ["RIGHT"]],
+            [[], ["BUTTON"]]
+        ]
+    }
+}

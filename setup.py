@@ -61,7 +61,7 @@ class CMakeBuild(build_ext):
         subprocess.check_call([make_exe, jobs, 'retro'])
 
 
-platform_globs = ['*-%s/*' % plat for plat in ['Nes', 'Snes', 'Genesis', 'Atari2600', 'GameBoy', 'Sms', 'GameGear', 'PCEngine', 'GbColor', 'GbAdvance']]
+platform_globs = ['*-%s/*' % plat for plat in ['Nes', 'Snes', 'Genesis', 'Atari2600', 'GameBoy', 'Sms', 'GameGear', 'PCEngine', 'GbColor', 'GbAdvance', 'Amstrad464']]
 
 kwargs = {}
 if tuple(int(v) for v in setuptools_version.split('.')) >= (24, 2, 0):
