@@ -137,3 +137,6 @@ retro/VERSION.txt
 Temporary
 *.mkv
 *.search
+
+# GB
+third-party/
